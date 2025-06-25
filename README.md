@@ -11,14 +11,14 @@ Ce dépôt contient les solutions aux exercices du module 3 sur l'écosystème H
 ### Exercices Spark
 - **Exercice XV** : Analyse de données avec Spark SQL (fichier Titanic)
 
-## ⚙️ Configuration requise
+## Configuration requise
 
 - **IntelliJ IDEA** (version Community ou Ultimate)
 - **Scala SDK** (version 2.13.x recommandée)
 - **Spark** (version 3.3.x) - Pour l'exercice XV
 - **Java JDK** (version 17)
 
-## 🛠 Installation
+## Installation
 
 1. Cloner le dépôt :
    ```bash
@@ -27,29 +27,29 @@ Ce dépôt contient les solutions aux exercices du module 3 sur l'écosystème H
 ## Structure du projet
 
 fichiers [SparkProject]/
-├── .bsp/                    # Fichiers de configuration pour BSP (Build Server Protocol)
-├── .idea/                   # Configuration spécifique à IntelliJ IDEA
-├── artifacts/               # Fichiers générés par IntelliJ (ex: packages)
+├── .bsp/                  
+├── .idea/                  
+├── artifacts/              
 │
-├── data/                    # Dossier contenant les fichiers de données
-│   ├── loup.txt             # Fichier texte pour l'exercice XIV
-│   └── Titanic.csv          # Fichier CSV pour l'exercice XV
+├── data/                    
+│   ├── loup.txt            
+│   └── Titanic.csv          
 │
-├── project/                 # Configuration SBT (méta-build)
-│   └── build.properties     # Version de SBT utilisée
+├── project/                 
+│   └── build.properties    
 │
-├── src/                     # Code source principal
+├── src/                     
 │   ├── main/
-│   │   └── scala/           # Code Scala
-│   │       ├── Exercice_XI.scala    # Solution exercice XI
-│   │       ├── Exercice_XII.scala   # Solution exercice XII
-│   │       ├── Exercice_XV.scala    # Solution exercice XV (Spark SQL)
-│   │       └── Main.scala          # Point d'entrée principal
+│   │   └── scala/          
+│   │       ├── Exercice_XI.scala    
+│   │       ├── Exercice_XII.scala   
+│   │       ├── Exercice_XV.scala    
+│   │       └── Main.scala          
 │   │
-│   └── test/                # Code de test (à créer si besoin)
+│   └── test/                
 │
-├── target/                  # Fichiers compilés générés automatiquement
+├── target/         
 │
-├── build.sbt                # Configuration principale du projet (dépendances, etc.)
-└── README.md                # Documentation du projet
+├── build.sbt               
+└── README.md                
 
